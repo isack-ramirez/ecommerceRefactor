@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import ProductItem from '../ProductItem';
+import { createStore } from 'redux'
 import { useStoreContext } from '../../utils/GlobalState';
 import { UPDATE_PRODUCTS } from '../../utils/actions';
 import { useQuery } from '@apollo/client';
