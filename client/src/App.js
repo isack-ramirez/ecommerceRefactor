@@ -19,7 +19,7 @@ import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
 import { Provider } from 'react-redux';
 import { store} from './store';
-import {useSelector, useDispatch} from 'react-redux'
+
 
 
 const httpLink = createHttpLink({
